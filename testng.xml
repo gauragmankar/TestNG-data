@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GSMSuite" parallel="tests">
+  <test thread-count="5" name="TestReport1" parallel="tests">
+    <classes>
+      <class name="ThirdTest.Fourth_calculateTest"/>
+    </classes>
+  </test> <!-- TestReport -->
+   <test thread-count="5" name="TestReport2" parallel="tests">
+    <classes>
+      <class name="ThirdTest.Third_test_demo"/>
+    </classes>
+  </test> <!-- TestReport -->
+</suite> <!-- GSMSuite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [GSMSuite]">
+  <test name="TestReport2(failed)" parallel="tests">
+    <classes>
+      <class name="ThirdTest.Third_test_demo">
+        <methods>
+          <include name="setUp"/>
+          <include name="pim"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- ThirdTest.Third_test_demo -->
+    </classes>
+  </test> <!-- TestReport2(failed) -->
+</suite> <!-- Failed suite [GSMSuite] -->
