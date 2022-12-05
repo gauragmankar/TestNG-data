@@ -35,7 +35,7 @@ public static void Multiplication() throws Throwable
 @Test( priority= 0, enabled=true)
 public static void division() throws Throwable
 {
-	// tap on C to clear text
+	// tap on C to clear text from
 	driver.findElement(By.xpath("(//input[@value='C'])[1]")).click();
 	driver.findElement(By.xpath("(//input[@name='display'])[1]")).sendKeys("200");
 	Thread.sleep(4000);
