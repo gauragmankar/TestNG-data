@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20904" started-at="2022-12-08T09:49:37Z" finished-at="2022-12-08T09:49:58Z">
+  <suite name="Default suite" duration-ms="59118" started-at="2022-12-09T06:27:26Z" finished-at="2022-12-09T06:28:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20904" started-at="2022-12-08T09:49:37Z" finished-at="2022-12-08T09:49:58Z">
+    <test name="Default test" duration-ms="59118" started-at="2022-12-09T06:27:26Z" finished-at="2022-12-09T06:28:26Z">
       <class name="excelOP.calculationTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:excelOP.calculationTest@1563da5]" name="setup" is-config="true" duration-ms="20876" started-at="2022-12-08T15:19:37Z" finished-at="2022-12-08T15:19:58Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:excelOP.calculationTest@33c7e1bb]" name="setup" is-config="true" duration-ms="3116" started-at="2022-12-09T11:57:27Z" finished-at="2022-12-09T11:57:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyPercentage()[pri:0, instance:excelOP.calculationTest@33c7e1bb]" name="verifyPercentage" duration-ms="55760" started-at="2022-12-09T11:57:30Z" finished-at="2022-12-09T11:58:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPercentage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:excelOP.calculationTest@33c7e1bb]" name="TearDown" is-config="true" duration-ms="217" started-at="2022-12-09T11:58:25Z" finished-at="2022-12-09T11:58:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- excelOP.calculationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

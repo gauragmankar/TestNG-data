@@ -17,5 +17,7 @@
 	<classpathentry kind="lib" path="E:/JAVA PROGRAMS/poi-3.17/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="E:/JAVA PROGRAMS/poi-3.17/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="E:/JAVA PROGRAMS/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/JAVA PROGRAMS/Extents report/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="E:/JAVA PROGRAMS/Extents report/freemarker-2.3.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
