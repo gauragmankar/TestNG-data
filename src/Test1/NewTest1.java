@@ -11,61 +11,65 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.AfterSuite;
 
-public class NewTest1 {
-  @Test
-  public void Login() 
-  {
-	 Reporter.log("Executing Login test", true); 
-  }
-  @Test
-  public void Compose() 
-  {
-	 Reporter.log("Executing Compose test", true); 
-  }
-  @Test
-  public void reply() 
-  {
-	 Reporter.log("Executing reply test", true); 
-  }
-  @BeforeMethod
-  public void beforeMethod() 
-  {
-	  Reporter.log("Running as an beforeMethod", true);
-  }
+public class NewTest1 
+{
+	@BeforeMethod
+	public void beforeMethod() 
+	{
+		Reporter.log("Running as an beforeMethod", true);
+	}
+	
+	
+	@Test
+	public void Login() 
+	{
+		Reporter.log("Executing Login test", true); 
+	}
+	@Test
+	public void Compose() 
+	{
+		Reporter.log("Executing Compose test", true); 
+	}
+	@Test
+	public void reply() 
+	{
+		Reporter.log("Executing reply test", true); 
+	}
 
-  @AfterMethod
-  public void afterMethod() {
-	  Reporter.log("Running as an afterMethod", true);
-  }
 
-  @BeforeClass
-  public void beforeClass() {
-	  Reporter.log("Running as an beforeClass", true);
-  }
+	@AfterMethod
+	public void afterMethod() {
+		Reporter.log("Running as an afterMethod", true);
+	}
 
-  @AfterClass
-  public void afterClass() {
-	  Reporter.log("Running as an afterClass", true);
-  }
+	@BeforeClass
+	public void beforeClass() {
+		Reporter.log("Running as an beforeClass", true);
+	}
 
-  @BeforeTest
-  public void beforeTest() {
-	  Reporter.log("Running as an beforeTest", true);
-  }
+	@AfterClass
+	public void afterClass() {
+		Reporter.log("Running as an afterClass", true);
+	}
 
-  @AfterTest
-  public void afterTest() {
-	  Reporter.log("Running as an afterTest", true);
-  }
+	@BeforeTest
+	public void beforeTest() {
+		Reporter.log("Running as an beforeTest", true);
+	}
 
-  @BeforeSuite
-  public void beforeSuite() {
-	  Reporter.log("Running as an beforeSuite", true);
-  }
+	@AfterTest
+	public void afterTest() {
+		Reporter.log("Running as an afterTest", true);
+	}
 
-  @AfterSuite
-  public void afterSuite() {
-	  Reporter.log("Running as an afterSuite", true);
-  }
+	@BeforeSuite
+	public void beforeSuite() {
+		Reporter.log("Running as an beforeSuite", true);
+	}
+
+	@AfterSuite
+	public void afterSuite() {
+		Reporter.log("Running as an afterSuite", true);
+	}
 
 }

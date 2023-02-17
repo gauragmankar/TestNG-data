@@ -3,13 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="excelOP.calculationTest">
+      <class name="NGPackage.NewTest">
         <methods>
+          <include name="SetUP"/>
           <include name="TearDown"/>
-          <include name="setup"/>
-          <include name="verifyPercentage"/>
+          <include name="TC4"/>
         </methods>
-      </class> <!-- excelOP.calculationTest -->
+      </class> <!-- NGPackage.NewTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
